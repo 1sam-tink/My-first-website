@@ -1,0 +1,124 @@
+body {
+    background-color: white
+}
+
+h1 {
+  color: rgb(243, 202, 18);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  font-variant: small-caps;
+  font-size: 150px;
+
+
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: unset;
+    font-size: 15px;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: rgba(255, 80, 147, 0.849);
+    min-width: 200px;
+    max-width: 1000px;
+    min-height: min-content;
+    max-height: 800px;
+}
+p1 {
+    color: crimson;
+}
+p2 {
+    color: deeppink;
+}
+#countries {
+    color: rgb(77, 11, 184);
+}
+#introduction {
+    color: coral;
+    font-family: cursive;
+    font-size: medium;
+    font-weight: 400;
+    font-variant: small-caps;
+}
+#habitat {
+    color: chartreuse;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 500;
+    font-variant: small-caps;
+}
+#media {
+    color: fuchsia;
+}
+a[href*='Brown_bear'] {
+    color: aqua;
+}
+a[href*='#introduction'] {
+    color: cyan;
+}
+a[href*='#media'] {
+    color: coral;
+}
+a[href*='#habita'] {
+    color: crimson;
+}
+a:hover {
+    color: lightgreen;
+    border: 1px solid red;
+}
+a {
+  display: inline-block;
+  list-style-type: none;
+  background: #ff523b;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 10px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+}
+
+.heading-colour {
+    color: cyan;
+    border: 3px solid white;
+    background-color: red;
+    border-radius: 15px;
+    text-align: center;
+}
+li h4 {
+    color:rgb(77, 11, 184);
+}
+img {
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+.bear {
+    background-image: url("https://video.cgtn.com/news/2020-07-08/How-can-you-tell-the-difference-between-black-and-brown-bears--RX6618Dupi/video/03b881706f464c2fa5ae1332defe971b/03b881706f464c2fa5ae1332defe971b.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  height: 500px;
+  width: 100%;
+
+}
+.author {
+  border-bottom: 1px solid rgb(211, 211, 211);
+  border-top: 1px solid rgb(211, 211, 211);
+  color: DarkGrey;
+  font-size: 30px;
+  font-weight: 200;
+  text-align: center;
+}
+.sam {
+    font-weight: 100;
+  letter-spacing: 2px;
+}
+.fam {
+    font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+}
